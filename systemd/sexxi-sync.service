@@ -1,0 +1,6 @@
+[Unit]
+Description=Synchronization bot for sexxi-goose
+
+[Service]
+Environment="SEXXI_DIR=%h/.bot/share"
+ExecStart=/bin/bash -c '%h/.bot/bin/release/sexxi-sync'
