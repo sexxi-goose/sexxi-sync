@@ -4,3 +4,6 @@ Description=Timer for sexxi-sync service
 [Timer]
 OnCalendar=*-*-* *:0,30:0
 Persistent=true
+
+[Install]
+WantedBy=default.target
